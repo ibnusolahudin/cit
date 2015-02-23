@@ -1,0 +1,7 @@
+_agn_homepage:
+    path:     /apps
+    defaults: { _controller: AppAgnBundle:Default:index }
+
+_agn_auth:
+    resource: "@AppAgnBundle/Controller/SecurityController.php"
+    type:     annotation
